@@ -1,8 +1,8 @@
 ---
-navbar_type: transparent
+navbar_type: dark
 permalink: /
 
-page_main_heading: Create interfaces that users just love
+page_main_heading: Create apps that users just love
 page_main_heading_description: Offering a complete set of UI elements, GTK is suitable for projects ranging from small one-off tools to complete application suites.
 
 downloads:
@@ -85,17 +85,14 @@ news_and_events_list:
     description: If you are a developer and want to contribute to GTK, you are more than [welcome to do so](/docs/getting-started/).
 ---
 
-{% include header.html %}
+{% include header.html %} {% include navbar.html %}
 
-{% assign back_img = '/assets/img/wall-gtk-main.jpg' | absolute_url %}
-<section class="d-flex flex-column" id="landing" style="background: #111b27 url('{{ back_img }}');">
-
-  {% include navbar.html %}
-  <div class="container d-flex align-items-center py-5">
-    <div class="row">
-      <div class="col-md-6 d-flex justify-content-center flex-column main-heading text-white">
-        <h1 class="display-4 mb-3 text-shadow">{{ page.page_main_heading }}</h1>
-        <span class="text-light mb-4 text-shadow">{{ page.page_main_heading_description | markdownify }}</span>
+<section class="py-4 d-flex flex-column align-items-center bg-dark text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 d-flex justify-content-end flex-column main-heading">
+        <h1 class="display-4 pb-3">{{ page.page_main_heading }}</h1>
+        <span class="text-info mb-4 lead">{{ page.page_main_heading_description | markdownify }}</span>
         <div class="mb-4 d-flex">
           <a href="{{ '/docs/' | absolute_url }}" class="btn btn-md btn-primary" role="button">Learn GTK</a>
           <div class="dropdown">
@@ -106,17 +103,19 @@ news_and_events_list:
               {% endfor %}
             </div>
           </div>
-        </div>
+        </div><!-- dropdown-->
         <div>
           <span class="text-light"><span class="small text-info">Latest stable</span> v{{ site.data.api_fetch.stable_tags[0].name }}</span>
           <span class="text-info mx-2">&bull;</span>
           <span class="text-light"><span class="small text-info">Latest devel</span> v{{ site.data.api_fetch.devel_tags[0].name }}</span>
         </div>
       </div>
+      <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <img src="{{ '/assets/img/wall-gtk4.svg' | absolute_url }}" class="img-fluid pl-lg-5" alt="GTK Community Wallpaper" />
+      </div>
     </div>
   </div>
 </section>
-</div>
 
 <section class="pt-5 pb-4" id="bindings">
   <div class="container">
@@ -182,7 +181,7 @@ news_and_events_list:
         <h2 class="font-weight-light mb-3">{{ page.integrations_main_heading }}</h2>
         <span class="text-muted">{{ page.integrations_main_heading_description | markdownify }}</span>
       </div>
-      <div class="col-lg-7 d-flex justify-content-center align-items-center py-4 py-lg-0">
+      <div class="col-lg-7 d-flex justify-content-center align-items-center py-4 py-lg-0 pl-lg-5">
         <img src="{{ page.integrations_image | absolute_url }}" class="img-fluid w-100 shadow-sm" alt="Integration of Glade and GTK" />
       </div>
     </div>
