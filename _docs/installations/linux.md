@@ -26,9 +26,19 @@ Epoxy | [<i class="fas fa-download"></i>](https://download.gnome.org/sources/lib
 
 The current stable API version of GTK is 4.0.
 
+### Building from source
+
 To build GTK, see the [installation guide](https://developer.gnome.org/gtk4/unstable/gtk-building.html).
 For additional help, the [frequently asked questions page](https://developer.gnome.org/gtk4/unstable/gtk-question-index.html) is a
 good starting point.
+
+### Installing GTK from packages
+
+| Distribution  | Binary package | Development package | Additional packages |
+| ------------- | -------------- | ------------------- | ------------------- |
+| Arch          | gtk4           | -                   | -                   |
+| Debian/Ubuntu | libgtk-4-0     | libgtk-4-dev        | gtk-4-examples      |
+| Fedora        | gtk4           | gtk4-devel          | -                   |
 
 ## Development version
 
@@ -42,6 +52,14 @@ as subprojects, if they are not available on your system.
 Many applications still use GTK 3, an older stable version of GTK. You
 can have the run-time and development environments for GTK 4.x and GTK 3.x
 installed simultaneously on your computer.
+
+### Installing GTK3 from packages
+
+| Distribution  | Binary package | Development package | Additional packages |
+| ------------- | -------------- | ------------------- | ------------------- |
+| Arch          | gtk3           | -                   | -                   |
+| Debian/Ubuntu | libgtk-3-0     | libgtk-3-dev        | gtk-3-examples      |
+| Fedora        | gtk3           | gtk3-devel          | -                   |
 
 ### GTK v3.x
 
