@@ -26,11 +26,13 @@ test:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - bundle exec jekyll build --trace -d public
   - find public -type f -regex '.*\.\(html\)$' -exec npm run minify-html {} \;
   - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
+    when: always
     paths:
+    - _data/api_fetch
     - public
   only:
   - master
