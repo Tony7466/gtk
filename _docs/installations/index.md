@@ -12,7 +12,7 @@ GTK is available on:
 ## Unstable releases
 
 The latest unstable tarballs can be downloaded from
-[download.gnome.org](http://download.gnome.org/sources/gtk+/).
+[download.gnome.org](http://download.gnome.org/sources/gtk/).
 
 ## Bleeding edge
 
@@ -22,16 +22,6 @@ git.
 ```
 git clone https://gitlab.gnome.org/GNOME/gtk.git
 ```
-
-If you plan on pushing changes back upstream and have a GNOME account, use
-the following instead:
-
-```
-git clone git@gitlab.gnome.org:GNOME/gtk.git
-```
-
-For more information on this, see the instructions on
-[how to use the repository](https://wiki.gnome.org/GitLab).
 
 ## Repository Browser
 
