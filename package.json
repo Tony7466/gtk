@@ -1,39 +1,39 @@
 {
-    "name": "gtk-web",
-    "version": "1.0.0",
-    "description": "The dependencies for the official website of GTK. Visit https://gtk.org/",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "watch-sass": "node-sass -w assets/scss/ -o assets/css/ --output-style compressed",
-        "compile-sass": "node-sass assets/scss/ -o assets/css/ --output-style compressed",
-        "minify-html": "run(){ html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace $1 -o $1; }; run"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://gitlab.gnome.org/Infrastructure/gtk-web.git"
-    },
-    "bugs": {
-        "url": "https://gitlab.gnome.org/Infrastructure/gtk-web/issues"
-    },
-    "homepage": "https://gitlab.gnome.org/Infrastructure/gtk-web#readme",
-    "keywords": [
-        "gtk",
-        "gimp",
-        "gnome",
-        "toolkit",
-        "user interface"
-    ],
-    "author": "GNOME",
-    "license": "ISC",
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.3",
-        "bootstrap": "^4.6.0",
-        "html-minifier": "^4.0.0",
-        "jquery": "^3.6.0",
-        "moment": "^2.29.1",
-        "node-sass": "^5.0.0",
-        "popper.js": "^1.16.1",
-        "slick-carousel": "^1.8.1"
-    }
+  "name": "gtk-web",
+  "version": "1.0.0",
+  "description": "The dependencies for the official website of GTK. Visit https://gtk.org/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass -w assets/scss/ -o assets/css/ --output-style compressed",
+    "compile-sass": "node-sass assets/scss/ -o assets/css/ --output-style compressed",
+    "minify-html": "run(){ html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace $1 -o $1; }; run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.gnome.org/Infrastructure/gtk-web.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.gnome.org/Infrastructure/gtk-web/issues"
+  },
+  "homepage": "https://gitlab.gnome.org/Infrastructure/gtk-web#readme",
+  "keywords": [
+    "gtk",
+    "gimp",
+    "gnome",
+    "toolkit",
+    "user interface"
+  ],
+  "author": "GNOME",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "html-minifier": "^4.0.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1"
+  }
 }
