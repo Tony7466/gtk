@@ -2,6 +2,10 @@
 npm install
 
 
+# install some modules globally
+npm install node-sass html-minifier -g
+
+
 # install gem dependencies
 gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
 bundle install
