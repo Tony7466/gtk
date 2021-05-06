@@ -173,15 +173,15 @@ sidebar_sections:
 sidebar_external_links:
   - title: GTK
     section: apis
-    href: https://developer.gnome.org/gtk4/unstable/
+    href: https://docs.gtk.org/gtk4/
 
   - title: GDK
     section: apis
-    href: https://developer.gnome.org/gdk4/unstable/
+    href: https://docs.gtk.org/gdk4/
 
   - title: GSK
     section: apis
-    href: https://developer.gnome.org/gsk4/unstable/
+    href: https://docs.gtk.org/gsk4/
 
   - title: GLib, GObject, GIO
     section: architecture
@@ -189,11 +189,11 @@ sidebar_external_links:
 
   - title: GdkPixbuf
     section: architecture
-    href: https://developer.gnome.org/gdk-pixbuf/stable/
+    href: https://docs.gtk.org/gdk-pixbuf/
 
   - title: Pango
     section: architecture
-    href: https://developer.gnome.org/pango/stable/
+    href: https://docs.gtk.org/Pango/
 
   - title: Cairo
     section: architecture
