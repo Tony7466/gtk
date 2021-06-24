@@ -49,7 +49,7 @@ int main (string[] argv) {
 }
 ```
 
-To compile the program use:
+To compile the program, copy it in your favorite text editor, save it as `hello_world.vala`, and compile it from the command line using:
 ```
 valac --pkg gtk4 hello_world.vala
 ```
