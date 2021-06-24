@@ -23,6 +23,7 @@ You can see many Vala and GTK based projects[GNOME Wiki](https://wiki.gnome.org/
 ## A Hello World app
 Below is an `Hello World` program that can be used as an example to get started with GTK Vala binding.
 ```vala
+//hello_world.vala
 int main (string[] argv) {
     // Create a new application
     var app = new Gtk.Application ("com.example.GtkApplication",
@@ -46,6 +47,11 @@ int main (string[] argv) {
 
     return app.run (argv);
 }
+```
+
+To compile the program use:
+```
+valac --pkg gtk4 hello_world.vala
 ```
 
 ## Contribute
