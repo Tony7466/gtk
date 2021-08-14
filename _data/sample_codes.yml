@@ -113,7 +113,7 @@ codes:
     snippet: |
       ```rust
       use glib::clone;
-      // glib and other dependencies are re-exported from the gtk crate
+      // glib and other dependencies are re-exported by the gtk crate
       use gtk::glib;
       use gtk::prelude::*;
 
@@ -130,8 +130,10 @@ codes:
       }
 
       fn main() {
-          // Create a new application
-          let app = gtk::Application::new(Some("com.github.gtk-rs.examples.basic"), Default::default());
+          // Create a new application with the builder pattern
+          let app = gtk::Application::builder()
+              .application_id("com.github.gtk-rs.examples.basic")
+              .build();
           app.connect_activate(on_activate);
           // Run the application
           app.run();
