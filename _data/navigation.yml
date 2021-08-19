@@ -36,7 +36,7 @@ menu_links:
     section: Project
 
   - name: Downloads
-    href: https://download.gnome.org/sources/gtk+/
+    href: https://download.gnome.org/sources/gtk/
     header: false
     footer: true
     section: Project
@@ -63,7 +63,7 @@ menu_links:
     section: Project
 
   - name: FAQs
-    href: https://developer.gnome.org/gtk3/stable/gtk-question-index.html
+    href: https://docs.gtk.org/gtk4/question_index.html
     header: false
     footer: true
     section: Support
@@ -185,7 +185,7 @@ sidebar_external_links:
 
   - title: GLib, GObject, GIO
     section: architecture
-    href: https://developer.gnome.org/glib/stable/
+    href: https://docs.gtk.org/glib/
 
   - title: GdkPixbuf
     section: architecture
