@@ -98,7 +98,7 @@ initialized using `gtk_application_new()`.
 When creating a `GtkApplication` you need to pick an application identifier
 (a name) and input to `gtk_application_new()` as parameter. For this
 example, `org.gtk.example` is used but for choosing an identifier for your
-application see [this guide](https://wiki.gnome.org/HowDoI/ChooseApplicationID).
+application see [this guide](https://developer.gnome.org/documentation/tutorials/application-id.html).
 Lastly `gtk_application_new()` takes a `GApplicationFlags` argument, which
 control some of the capabilities that your application has, like being able
 to open files specified on the command line, or parsing command line options.
@@ -128,7 +128,7 @@ casting window via the usual C cast operator `(GtkWindow *)`, `window` should
 be cast using the `GTK_WINDOW()` macro. `GTK_WINDOW()` will perform a run
 time check if the pointer is an instance of the `GtkWindow` class, before
 casting, and emit a warning if the check fails. More information about this
-convention can be found [here](https://developer.gnome.org/gobject/stable/gtype-conventions.html).
+convention can be found [here](https://docs.gtk.org/gobject/concepts.html#conventions).
 
 Finally the window size is set using `gtk_window_set_default_size()` and the
 window is then shown by GTK via `gtk_window_present()`.
