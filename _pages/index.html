@@ -107,6 +107,8 @@ news_and_events_list:
         <div>
           {% assign latest_tag = site.data.api_fetch.stable_tags[0] %}
           <span class="text-light"><span class="small text-info">Latest stable</span> v{{ latest_tag.name }}</span>
+          {% assign latest_unstable_tag = site.data.api_fetch.unstable_tags[0] %}
+          <span class="text-light"><span class="small text-info">Latest unstable</span> v{{ latest_unstable_tag.name }}</span>
         </div>
       </div>
       <div class="col-lg-6 d-flex justify-content-center align-items-center">
