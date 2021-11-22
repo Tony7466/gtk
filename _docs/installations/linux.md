@@ -38,7 +38,7 @@ good starting point.
 | Distribution  | Binary package | Development package | Additional packages |
 | ------------- | -------------- | ------------------- | ------------------- |
 | Arch          | gtk4           | -                   | -                   |
-| Debian/Ubuntu | libgtk-4-0     | libgtk-4-dev        | gtk-4-examples      |
+| Debian/Ubuntu | libgtk-4-1     | libgtk-4-dev        | gtk-4-examples      |
 | Fedora        | gtk4           | gtk4-devel          | -                   |
 
 ## Development version
