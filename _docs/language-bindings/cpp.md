@@ -120,12 +120,12 @@ After compiling and run the above code and you should see get the below given ou
 This code depicts how to use GTK C++ binding for creating a simple Hello
 World application. A more detailed explanation of the above code can be
 checked out
-[here](https://developer.gnome.org/gtkmm-tutorial/stable/sec-helloworld.html.en).
+[here](https://developer-old.gnome.org/gtkmm-tutorial/stable/sec-helloworld.html.en).
 
 ## Tutorials
 
 You can find various useful tutorials regarding gtkmm from this
-[source](https://developer.gnome.org/gtkmm-tutorial/stable/index.html).
+[source](https://developer-old.gnome.org/gtkmm-tutorial/stable/index.html).
 
 ## Contribute
 

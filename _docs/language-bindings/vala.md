@@ -18,7 +18,7 @@ You can see many Vala and GTK based projects[GNOME Wiki](https://wiki.gnome.org/
 
 ## Tutorials
 
-[**Vala**](https://wiki.gnome.org/Projects/Vala/) website lists various [Vala's GTK tutorial](https://wiki.gnome.org/Projects/Vala/Documentation#GUI_Programming) [GTK's Vala tutorial](https://developer.gnome.org/gnome-devel-demos/stable/beginner.vala.html.en) that range from introduction to the usage of Gtk and much more.
+[**Vala**](https://wiki.gnome.org/Projects/Vala/) website lists various [Vala's GTK tutorial](https://wiki.gnome.org/Projects/Vala/Documentation#GUI_Programming) [GTK's Vala tutorial](https://developer-old.gnome.org/gnome-devel-demos/stable/beginner.vala.html.en) that range from introduction to the usage of Gtk and much more.
 
 ## A Hello World app
 Below is an `Hello World` program that can be used as an example to get started with GTK Vala binding.
@@ -66,4 +66,4 @@ If you want to get in touch with the original source files, you can visit the pr
 * Docs: [https://valadoc.org/](https://valadoc.org/)
 * Tutorial:
   - [Vala's GTK tutorial](https://wiki.gnome.org/Projects/Vala/Documentation#GUI_Programming)
-  - [GTK's Vala tutorial](https://developer.gnome.org/gnome-devel-demos/stable/beginner.vala.html.en)
+  - [GTK's Vala tutorial](https://developer-old.gnome.org/gnome-devel-demos/stable/beginner.vala.html.en)
