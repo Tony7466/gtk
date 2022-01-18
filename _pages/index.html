@@ -103,12 +103,14 @@ news_and_events_list:
           </div>
         </div><!-- dropdown-->
         <div>
-          {% assign latest_tag = site.data.api_fetch.stable_tags[0] %}
-          <span class="text-light"><span class="small text-info">Latest stable</span> v{{ latest_tag.name }}</span><br/>
-          {% assign latest_unstable_tag = site.data.api_fetch.unstable_tags[0] %}
-          <span class="text-light"><span class="small text-info">Latest unstable</span> v{{ latest_unstable_tag.name }}</span><br/>
-          {% assign latest_old_tag = site.data.api_fetch.old_stable_tags[0] %}
-          <span class="text-light"><span class="small text-info">Latest old stable</span> v{{ latest_old_tag.name }}</span><br/>
+          {% assign latest_tag = site.data.api_fetch.stable_tags | first %}
+          <span class="text-light"><span class="small text-info">Latest stable</span> {{ latest_tag.name }}</span><br/>
+          {% assign latest_unstable_tag = site.data.api_fetch.unstable_tags | first %}
+          {% if latest_unstable_tag %}
+          <span class="text-light"><span class="small text-info">Latest unstable</span> {{ latest_unstable_tag.name }}</span><br/>
+          {% endif %}
+          {% assign latest_old_tag = site.data.api_fetch.old_stable_tags | first %}
+          <span class="text-light"><span class="small text-info">Latest old stable</span> {{ latest_old_tag.name }}</span><br/>
         </div>
       </div>
       <div class="col-lg-6 d-flex justify-content-center align-items-center">
