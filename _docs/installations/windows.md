@@ -52,17 +52,7 @@ matches your platform and follow the installation instructions.
 pacman -S mingw-w64-x86_64-gtk3
 ```
 
-**Step 3. (recommended)**: Install the GTK core applications. `Glade` is a
-GUI designer for GTK. It lets you design your GUI and export it in XML
-format. You can then import your GUI from your code using the GtkBuilder
-API. Read the GtkBuilder section in the GTK manual for more information.
-
-To install Glade:
-```
-pacman -S mingw-w64-x86_64-glade
-```
-
-**Step 4. (optional)**: If you want to develop a GTK3 application in Python,
+**Step 3. (optional)**: If you want to develop a GTK3 application in Python,
 you need to install the Python bindings.
 
 If you develop in Python 3:
@@ -75,7 +65,7 @@ If you develop in Python 2:
 pacman -S mingw-w64-x86_64-python2-gobject
 ```
 
-**Step 5. (optional)**: Install the build tools. If you want to develop a
+**Step 4. (optional)**: Install the build tools. If you want to develop a
 GTK3 application in other languages like C, C++, Fortran, etc, you'll need a
 compiler like gcc and other development tools: ``` pacman -S
 mingw-w64-x86_64-toolchain base-devel ```
