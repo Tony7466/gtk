@@ -10,8 +10,7 @@ the main container. The user interface is then built by adding buttons,
 drop-down menus, input fields, and other widgets to the window. If you are
 creating complex user interfaces it is recommended to use GtkBuilder and its
 GTK-specific markup description language, instead of assembling the
-interface manually. You can also use a visual user interface editor, like
-Glade.
+interface manually.
 
 GTK is event-driven. The toolkit listens for events such as a click on a
 button, and passes the event to your application.

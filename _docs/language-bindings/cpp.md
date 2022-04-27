@@ -8,8 +8,7 @@
 [**gtkmm**](https://www.gtkmm.org/) is the official C++ interface for GTK.
 Highlights include typesafe callbacks, and a comprehensive set of widgets
 that are easily extensible via inheritance. You can create user interfaces
-either in code or with the [Glade User Interface
-designer](http://glade.gnome.org/), using `Gtk::Builder`. There's [extensive
+in code using `Gtk::Builder`. There's [extensive
 documentation](https://www.gtkmm.org/en/documentation.shtml), including API
 reference and a tutorial.
 
