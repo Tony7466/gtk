@@ -76,7 +76,7 @@ main (int    argc,
 You can compile the program above with GCC using:
 
 ```shell
-gcc -o hello-world-gtk hello-world-gtk.c `pkg-config --cflags --libs gtk4`
+gcc -o hello-world-gtk hello-world-gtk.c $(pkg-config --cflags --libs gtk4)
 ```
 
 <div class="alert alert-tertiary">
