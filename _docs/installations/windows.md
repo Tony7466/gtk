@@ -46,7 +46,13 @@ manager](https://github.com/msys2/msys2/wiki/MSYS2-installation#iv-general-packa
 **Step 1.**: Download the [MSYS2 installer](https://www.msys2.org/) that
 matches your platform and follow the installation instructions.
 
-**Step 2.**: Install GTK3 and its dependencies. Open a MSYS2 shell, and run:
+**Step 2.**: Install GTK4 and its dependencies. Open a MSYS2 shell, and run:
+
+```
+pacman -S mingw-w64-x86_64-gtk4
+```
+
+If you want to develop with GTK3, run:
 
 ```
 pacman -S mingw-w64-x86_64-gtk3
@@ -57,16 +63,22 @@ you need to install the Python bindings.
 
 If you develop in Python 3:
 ```
-pacman -S mingw-w64-x86_64-python3-gobject
+pacman -S mingw-w64-x86_64-python-gobject
 ```
 
 If you develop in Python 2:
 ```
-pacman -S mingw-w64-x86_64-python2-gobject
+pacman -S mingw-w64-ucrt-x86_64-python2-gobject2
+```
+
+Also, if you want to develop a GTK application in Vala, you need to additionally install vala's package:
+
+```
+pacman -S mingw-w64-ucrt-x86_64-vala
 ```
 
 **Step 4. (optional)**: Install the build tools. If you want to develop a
-GTK3 application in other languages like C, C++, Fortran, etc, you'll need a
+GTK application in other languages like C, C++, Fortran, etc, you'll need a
 compiler like gcc and other development tools: ``` pacman -S
 mingw-w64-x86_64-toolchain base-devel ```
 
