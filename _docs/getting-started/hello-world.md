@@ -91,19 +91,19 @@ section in the GTK API reference.
 
 In a GTK application, the purpose of the `main()` function is to create a
 [`GtkApplication`](https://docs.gtk.org/gtk4/class.Application.html)
-object and run it. In this example a `GtkApplication` instance is created and
+object and run it. In this example, a `GtkApplication` instance is created and
 initialized using `gtk_application_new()`.
 
-When creating a `GtkApplication` you need to pick an application identifier
+When creating a `GtkApplication`, you need to pick an application identifier
 (a name) and input to `gtk_application_new()` as parameter. For this
 example, `org.gtk.example` is used but for choosing an identifier for your
 application see [this guide](https://developer.gnome.org/documentation/tutorials/application-id.html).
-Lastly `gtk_application_new()` takes a `GApplicationFlags` argument, which
+Lastly, `gtk_application_new()` takes a `GApplicationFlags` argument, which
 control some of the capabilities that your application has, like being able
 to open files specified on the command line, or parsing command line options.
 
-Next the activate signal is connected to the `activate()` function above the
-`main()` functions. The activate signal will be sent when your application
+Next, the activate signal is connected to the `activate()` function above the
+`main()` function. The activate signal will be sent when your application
 is launched with `g_application_run()` on the line below. The
 `gtk_application_run()` also takes as arguments the pointers to the command
 line arguments counter and string array; this allows GTK to parse specific
@@ -111,9 +111,9 @@ command line arguments that control the behavior of GTK itself. The parsed
 arguments will be removed from the array, leaving the unrecognized ones for
 your application to parse.
 
-Within `g_application_run` the `activate()` signal is sent and we then
+Within `g_application_run`, the `activate()` signal is sent and we then
 proceed into the `activate()` function of the application. Inside the
-`activate()` function we want to construct our GTK window, so that a window
+`activate()` function, we want to construct our GTK window so that a window
 is shown when the application is launched. The call to
 `gtk_application_window_new()` will create a new
 [`GtkApplicationWindow`](https://docs.gtk.org/gtk4/class.ApplicationWindow.html)
@@ -129,13 +129,13 @@ time check if the pointer is an instance of the `GtkWindow` class, before
 casting, and emit a warning if the check fails. More information about this
 convention can be found [here](https://docs.gtk.org/gobject/concepts.html#conventions).
 
-Finally the window size is set using `gtk_window_set_default_size()` and the
+Finally, the window size is set using `gtk_window_set_default_size()`, and the
 window is then shown by GTK via `gtk_window_present()`.
 
 When you exit the window, by for example pressing the X, the
 `g_application_run()` in the main loop returns with a number which is saved
 inside an integer named "status". Afterwards, the `GtkApplication` object is
-freed from memory with `g_object_unref()`. Finally the status integer is
+freed from memory with `g_object_unref()`. Finally, the status integer is
 returned to the operating system, and the GTK application exits.
 
 ### Adding Button
@@ -144,9 +144,9 @@ As seen above, `hello-world-gtk.c` adds a button to our window, with the
 label "Hello World". A new `GtkWidget` pointer is declared to accomplish
 this, `button`, and is initialized by calling `gtk_button_new_with_label()`,
 which returns a [`GtkButton`](https://docs.gtk.org/gtk4/class.Button.html)
-to be stored inside `button`. Afterwards `button` is added to our `window`.
-Using `g_signal_connect` the button is connected to a function in our app
-called `print_hello()`, so that when the button is clicked, GTK will call
+to be stored inside `button`. Afterwards, `button` is added to our `window`.
+Using `g_signal_connect`, the button is connected to a function in our app
+called `print_hello()` so that, when the button is clicked, GTK will call
 this function. As the `print_hello()` function does not use any data as
 input, NULL is passed to it. `print_hello()` calls `g_print()` with the
 string "Hello World" which will print Hello World in a terminal if the GTK
