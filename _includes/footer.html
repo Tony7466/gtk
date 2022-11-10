@@ -50,7 +50,7 @@ to make changes related to the content, edit the `_data/navigation.yml`
         <ul class="list-unstyled list-inline text-small">
           {% assign social_links = site.data.navigation.social_links %}
           {% for link in social_links %}
-            <li class="list-inline-item"><a href="{{ link.href }}" class="text-muted text-primary"><i class="{{ link.icon }}"></i></a></li>
+            <li class="list-inline-item"><a href="{{ link.href }}" rel="me" class="text-muted text-primary"><i class="{{ link.icon }}"></i></a></li>
           {% endfor %}
         </ul>
       </div>

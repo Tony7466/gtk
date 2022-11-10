@@ -130,7 +130,8 @@ social_links:
     href: https://gitlab.gnome.org/GNOME/gtk/
   - icon: fab fa-discourse
     href: https://discourse.gnome.org/c/platform/core/
-
+  - icon: fab fa-mastodon
+    href: https://floss.social/@GTK
 
 # read out the CONTRIBUTING.md to know how to add documentation pages to the website
 
