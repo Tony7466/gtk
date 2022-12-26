@@ -113,7 +113,7 @@ list of dependencies used by this project:
 | node-sass                     | `4.14.1` | [package.json][package.json] | [Github](https://github.com/sass/node-sass/)          |
 | jekyll                        | `4.0.1`  | [Gemfile][gemfile]           | [Github](https://github.com/jekyll/jekyll/)           |
 
-Read about adding/updating/removing dependencies on [how to contribute](CONTRIBUTING.MD#addingupdatingremoving-dependencies).
+Read about adding/updating/removing dependencies on [how to contribute](CONTRIBUTING.md#addingupdatingremoving-dependencies).
 
 ## Pipeline
 
@@ -158,8 +158,8 @@ GTK.org is licensed under the [Creative Commons BY-SA-4.0][license].
 
 <!-- markdown variables -->
 
-[contributing]: CONTRIBUTING.MD
-[code-of-conduct]: CODE_OF_CONDUCT.MD
+[contributing]: CONTRIBUTING.md
+[code-of-conduct]: CODE_OF_CONDUCT.md
 [official-jekyll]: https://jekyllrb.com
 [package.json]: package.json
 [gemfile]: Gemfile
