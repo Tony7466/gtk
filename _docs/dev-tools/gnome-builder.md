@@ -28,7 +28,7 @@ $ flatpak run org.gnome.Builder
 ```
 
 ## Getting in Touch
-Questions regarding use and development of Builder are welcome though Builder's [IRC channel](irc://irc.gnome.org/%23gnome-builder) (`#gnome-builder` at `irc.gnome.org`).
+Questions regarding use and development of Builder are welcome though Builder's [Matrix room](https://matrix.to/#/#gnome-builder:gnome.org).
 
 ## Filing a bug
 If you found a problem or have a feature suggestion, feel free to [file a bug at GNOME's bug tracker](https://gitlab.gnome.org/GNOME/gnome-builder/issues).
