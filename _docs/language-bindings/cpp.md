@@ -9,7 +9,7 @@
 Highlights include typesafe callbacks, and a comprehensive set of widgets
 that are easily extensible via inheritance. You can create user interfaces
 in code using `Gtk::Builder`. There's [extensive
-documentation](https://www.gtkmm.org/en/documentation.shtml), including API
+documentation](https://www.gtkmm.org/en/documentation.html), including API
 reference and a tutorial.
 
 gtkmm is free software distributed under the GNU Library General Public
