@@ -79,6 +79,12 @@ You can compile the program above with GCC using:
 gcc $(pkg-config --cflags gtk4) -o hello-world-gtk hello-world-gtk.c $(pkg-config --libs gtk4)
 ```
 
+You can run the program above by executing: 
+
+```shell
+./hello-world-gtk
+```
+
 <div class="alert alert-tertiary">
 For more information on how to compile a GTK application, please refer to
 the [Compiling GTK Applications](https://docs.gtk.org/gtk4/compiling.html)
