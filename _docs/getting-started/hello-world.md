@@ -79,7 +79,7 @@ You can compile the program above with GCC using:
 gcc $(pkg-config --cflags gtk4) -o hello-world-gtk hello-world-gtk.c $(pkg-config --libs gtk4)
 ```
 
-You can run the program above by executing: 
+You can then execute the program by running: 
 
 ```shell
 ./hello-world-gtk
