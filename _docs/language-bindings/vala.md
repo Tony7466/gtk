@@ -27,7 +27,7 @@ Below is an `Hello World` program that can be used as an example to get started 
 int main (string[] argv) {
     // Create a new application
     var app = new Gtk.Application ("com.example.GtkApplication",
-                                   GLib.ApplicationFlags.FLAGS_NONE);
+                                   GLib.ApplicationFlags.DEFAULT_FLAGS);
 
     app.activate.connect (() => {
         // Create a new window
