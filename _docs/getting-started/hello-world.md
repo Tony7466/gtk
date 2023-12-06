@@ -47,7 +47,7 @@ activate (GtkApplication *app,
   GtkWidget *button;
 
   window = gtk_application_window_new (app);
-  gtk_window_set_title (GTK_WINDOW (window), "Window");
+  gtk_window_set_title (GTK_WINDOW (window), "Hello");
   gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
 
   button = gtk_button_new_with_label ("Hello World");
@@ -77,6 +77,12 @@ You can compile the program above with GCC using:
 
 ```shell
 gcc $(pkg-config --cflags gtk4) -o hello-world-gtk hello-world-gtk.c $(pkg-config --libs gtk4)
+```
+
+You can then run the program using: 
+
+```shell
+./hello-world-gtk
 ```
 
 <div class="alert alert-tertiary">
