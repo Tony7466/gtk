@@ -16,10 +16,9 @@ mini_description: GTK is a free and open-source cross-platform widget toolkit fo
 keywords: gtk, gtk, gimp, gnome, toolkit, user interface
 
 author: The GTK Team
-twitter_username: GTKtoolkit
 
 # the current stable version of GTK
-website_repo: https://gitlab.gnome.org/Infrastructure/gtk-web
+website_repo: https://gitlab.gnome.org/Teams/Websites/www.gtk.org
 
 # jekyll configuration options
 
