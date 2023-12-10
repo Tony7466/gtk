@@ -124,8 +124,6 @@ menu_links:
 #   href: link to the social media profile
 
 social_links:
-  - icon: fab fa-twitter
-    href: https://twitter.com/GTKtoolkit/
   - icon: fab fa-gitlab
     href: https://gitlab.gnome.org/GNOME/gtk/
   - icon: fab fa-discourse
