@@ -111,7 +111,7 @@ to open files specified on the command line, or parsing command line options.
 Next, the activate signal is connected to the `activate()` function above the
 `main()` function. The activate signal will be sent when your application
 is launched with `g_application_run()` on the line below. The
-`gtk_application_run()` also takes as arguments the pointers to the command
+`g_application_run()` also takes as arguments the pointers to the command
 line arguments counter and string array; this allows GTK to parse specific
 command line arguments that control the behavior of GTK itself. The parsed
 arguments will be removed from the array, leaving the unrecognized ones for
